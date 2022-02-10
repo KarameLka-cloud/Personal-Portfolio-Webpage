@@ -24,7 +24,7 @@ body {
 }
 
 .logo {
-  height: 65px;
+  height: 90%;
   width: auto;
   margin-left: 20px;
 }
@@ -35,6 +35,7 @@ body {
 }
 
 .nav-list li {
+  
   padding: 0 20px;
   font-size: 1.6rem;
 }
@@ -51,10 +52,12 @@ body {
   background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
   height: 100vh;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .welcome-section h1 {
-  padding-top: 200px; /* нужно сместить текст в середину*/
   color: white;
   font-size: 4.7rem;
 }
@@ -70,6 +73,21 @@ body {
 
 .projects-section {
   background-color: #45567d;
+  padding: 60px 40px;
+}
+
+.projects-section-header {
+  color: #fff;
+  padding-bottom: 14px;
+  font-size: 2.5rem;
+  border-bottom: 2px solid #fff;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.projects-grid {
+  display: grid;
 }
 
 
@@ -77,6 +95,41 @@ body {
 
 .contact-section {
   background-color: #303841;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 0;
+}
+
+.contact-section-header {
+  color: #fff;
+}
+
+.contact-section-header h2 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.contact-section-header p {
+  font-size: 2rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.contact-links {
+  margin-top: 100px;
+}
+
+.contact-links ul {
+  display: flex;
+}
+
+.contact-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 40px;
+  font-size: 1.8rem;
 }
 
 
